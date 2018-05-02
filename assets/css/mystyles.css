@@ -1,0 +1,19 @@
+body{
+    background: white;
+    font-family: verdana;
+    color: black;
+    text-align: center;
+}
+h1{
+    font-size: 2rem; letter-spacing: 4px;
+}
+h2{
+    font-size: 2rem; letter-spacing: 4px;
+}
+p{
+    font-size: 2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}

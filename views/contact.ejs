@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+	<title>contact</title>
+	<link rel="stylesheet" href="assets/css/mystyles.css">
+</head>
+<body>
+	<% include partials/nav.ejs %>
+	<h1>this is the contact page</h1>
+	<form action="/contact" id="contact-form" method="POST">
+		<input type="text" name="name" id="name" placeholder="Name">
+		<input type="text" name="department" id="department" placeholder="Department">
+		<input type="email" name="email" id="email" placeholder="Email">
+		<input type="submit" name="" id="submit">
+	</form>
+</body>

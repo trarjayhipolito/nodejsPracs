@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+	<title>Contact Success</title>
+	<link rel="stylesheet" href="assets/css/mystyles.css">
+</head>
+<body>
+	<% include partials/nav.ejs %>
+	<h1>This is the contact-success page</h1>
+    <form action="/contact" id="contact-form" method="POST">
+        Name
+        <input type="text" name="name" id="name" placeholder="Name" value="<%= data.name%>">
+        Department
+        <input type="text" name="department" id="department" placeholder="Department" value="<%= data.department%>">
+        Email
+        <p>We will contact you at <a href=""><%= data.email %></a></p>
+		<input type="submit" name="" id="submit">
+	</form>
+</body>
